@@ -6,9 +6,9 @@
  */
 require WP_CONTENT_DIR . '/plugins/plugin-update-checker-master/plugin-update-checker.php';
 $myUpdateChecker = Puc_v4_Factory::buildUpdateChecker(
-	'https://github.com/csd509j/MtView',
+	'https://github.com/csd509j/MountainView',
 	__FILE__,
-	'MtView'
+	'MountainView'
 );
 
 $myUpdateChecker->setBranch('master'); 
